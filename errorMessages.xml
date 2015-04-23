@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ | Version 10.2
+ | Copyright 2013 Esri
+ |
+ | Licensed under the Apache License, Version 2.0 (the "License");
+ | you may not use this file except in compliance with the License.
+ | You may obtain a copy of the License at
+ |
+ |    http://www.apache.org/licenses/LICENSE-2.0
+ |
+ | Unless required by applicable law or agreed to in writing, software
+ | distributed under the License is distributed on an "AS IS" BASIS,
+ | WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ | See the License for the specific language governing permissions and
+ | limitations under the License.
+-->
+<Messages>
+    <addressToLocate>Enter address to locate.</addressToLocate>
+    <permitToLocate>Enter permit number to locate.</permitToLocate>
+    <countyToLocate>Enter county to locate.</countyToLocate>
+    <tinyURLEngine>Bitly API is not able to generate tiny URL.</tinyURLEngine>
+    <geoLocation>You are currently outside the supported area.</geoLocation>
+    <geolocationTimeout>Request timed out.</geolocationTimeout>
+    <geolocationPositionUnavailable>Position unavailable.</geolocationPositionUnavailable>
+    <geolocationPermissionDenied>Permission denied.</geolocationPermissionDenied>
+    <geolocationUnKnownError>Unknown error.</geolocationUnKnownError>
+    <invalidSearch>No results found</invalidSearch>
+    <noPermitFound>No permits found</noPermitFound>
+    <dataNotFound>Data for '${0}' layer could not be populated.</dataNotFound>
+    <invalidServiceType>Service type specified as '${0}'. Supported service types are 'dynamic', 'feature', 'tiled' only.</invalidServiceType>
+    <layerLoadError>Unable to load the layer completely. The error from rest end is-</layerLoadError>
+    <numberOfFeaturesFound>${0} features found at this location</numberOfFeaturesFound>
+    <numberOfFeaturesFoundOnMobile>${0} features found</numberOfFeaturesFoundOnMobile>
+    <falseConfigParams> Either required configuration key values are null or not exactly matching with layer attributes.</falseConfigParams>
+    <noBaseMapURL>Basemap URLs are not configured. Please configure basemap URLs.</noBaseMapURL>
+    <noLODs>Configured layer ${0} cannot be loaded as (LoadAsServiceType).</noLODs>
+    <layerNotVisible>The query layer(s) configured for search does not match operational layers </layerNotVisible>
+    <webmapTitleError>Title and/or QueryLayerId parameters in SearchSettings do not match with configured webmap.</webmapTitleError>
+    <layerTitleError>Title and/or QueryLayerId parameters in SearchSettings do not match with configured operational layers.</layerTitleError>
+    <titleNotMatching>Title and/or QueryLayerId parameters in the InfoWindowSettings and SearchSettings do not match.</titleNotMatching>
+    <lengthDoNotMatch>The number of objects in InfoWindowSettings and SearchSettings do not match.</lengthDoNotMatch>
+    <noCountyLayer>Configuration settings for either ServiceURL, SearchExpression or CountyDisplayField fields in CountyLayerData are missing.</noCountyLayer>
+    <noInfoWindowData>InfoWindow data for '${0}' layer could not be fetched from webmap.</noInfoWindowData>
+</Messages>
